@@ -6,7 +6,6 @@ import Signup from "./pages/Signup"
 import NotFound from "./pages/NotFound"
 import { Routes, Route } from "react-router-dom"
 import { useAuth } from "./context/AuthContext"
-import Particles from "react-tsparticles"
 
 function App() {
   const auth = useAuth()

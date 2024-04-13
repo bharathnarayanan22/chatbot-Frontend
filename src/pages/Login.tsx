@@ -5,7 +5,6 @@ import CustomizedInput from "../components/shared/CustomizedInput";
 import { useAuth } from "../context/AuthContext";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
-import Particles from "react-tsparticles";
 import Spline from '@splinetool/react-spline';
 
 const Login = () => {
